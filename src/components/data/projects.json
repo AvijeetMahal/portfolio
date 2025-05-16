@@ -1,10 +1,10 @@
 [
   {
     "key": 1,
-    "title": "React E-Commerce",
-    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
+    "title": "To-do List",
+    "imageSrc": "https://www.sourcecodester.com/sites/default/files/images/rems/tdle1.jpg",
+    "description": "A simple React app to add and delete tasks as complete. It uses React state to manage tasks dynamically.",
+    "demo": "https://todolist-mauve-pi.vercel.app/",
     "source": "https://www.github.com"
   },
   {
