@@ -23,7 +23,8 @@ const Project = () => {
                 </div>
                 <div className="card-body text-center">
                   <h5 className="card-title">{data.title}</h5>
-                  <p className="card-text">
+                  <p className="card-text"
+                  style={{overflow:"hidden", textOverflow: "ellipsis", whiteSpace: "nowrap", width: "100%", height: "50px"}}>
                     {data.description}
                   </p>
                   <a href={data.demo} className="btn btn-primary">Demo</a>
