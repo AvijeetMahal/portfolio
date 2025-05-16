@@ -48,8 +48,9 @@ a {
   border: 1px solid white;
   box-shadow: var(--box-shadow);
 }
-.home .left span{
-  color:rgb(30,159,171);
+
+.home .left span {
+  color: rgb(30, 159, 171);
 }
 
 .home .right .img {
@@ -76,10 +77,11 @@ a {
 }
 
 /* SKILLS */
-.skills{
+.skills {
   width: 900px;
 }
-.skills .items{
+
+.skills .items {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -87,34 +89,35 @@ a {
   flex-wrap: wrap;
 }
 
-.skills .items .item{
+.skills .items .item {
 
- width: calc(33.33%);
- background-color: var(--bg-color);
- margin: 20px;
- text-align: center;
- padding:20px ;
- border-radius: 10px;
- border: 1px solid white;
+  width: calc(33.33%);
+  background-color: var(--bg-color);
+  margin: 20px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid white;
   box-shadow: var(--box-shadow);
 }
 
 
 
-.skills .items .item img{
+.skills .items .item img {
   width: 50px;
   height: 50px;
   margin: 0 10px;
 }
 
 /* Contact */
-.contact-icon{
+.contact-icon {
   height: 20vh;
   display: flex;
   justify-content: center;
   align-items: center
 }
-.contact-icon .items{
+
+.contact-icon .items {
   background-color: var(--bg-color);
   margin: 10px;
   height: 60px;
@@ -125,44 +128,51 @@ a {
   border-radius: 100%;
   border: 1px solid white;
 }
-.contact-icon .items:hover{
+
+.contact-icon .items:hover {
   background-color: white;
   color: var(--bg-color);
 }
+
 @media screen and (max-width: 768px) {
   .home {
     flex-direction: column;
     height: auto;
   }
+
   .home .left {
     width: 100%;
     height: auto;
   }
+
   .home .right .img img {
     width: 200px;
     height: 200px;
   }
-  .skills{
+  .home .right .img {
+    margin: 80px;
+  }
+
+  .skills {
     width: 100%;
   }
-  .skills .items .item{
+
+  .skills .items .item {
     width: calc(50%);
   }
-  .contact-icon .items{
+
+  .contact-icon .items {
     width: 50px;
     height: 50px;
   }
-  .contact-icon{
-    height: auto;
-  }
-  .contact-icon .items{
-    margin: 10px;
-  }
+
   .nav_bar .nav_items {
     font-size: 0.8rem;
   }
+
   .nav_bar {
     height: 60px;
-  } 
+  }
   
+
 }
