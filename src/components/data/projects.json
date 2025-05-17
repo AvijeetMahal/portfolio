@@ -9,10 +9,10 @@
   },
   {
     "key": 2,
-    "title": "MERN Blogging",
-    "imageSrc": "https://cdn.pixabay.com/photo/2017/05/02/15/30/streets-2278471_640.jpg",
+    "title": "Weather App",
+    "imageSrc": "https://miro.medium.com/v2/resize:fit:1400/1*fbLb3jkm3V_m4Mo5bmYJMg.png",
     "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
+    "demo": "https://avijeetweather.netlify.app/",
     "source": "https://www.github.com"
   },
   {
